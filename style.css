@@ -1,1 +1,9 @@
- 
+header {   
+    overflow: hidden;
+    background-color: #000000;
+    padding: 4px; 
+    position:relative;
+    width: 100%;
+    height:auto;
+    z-index: 1;
+}
