@@ -1,9 +1,13 @@
 header {   
     overflow: hidden;
-    background-color: #000000;
+    background-color: #fafafa;
     padding: 4px; 
     position:relative;
     width: 100%;
     height:auto;
     z-index: 1;
+}
+
+.Grey-background-footer {
+    background-color: rgba(0, 0, 0, 0.050);
 }
