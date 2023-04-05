@@ -6,6 +6,46 @@
     text-decoration: none;
     }
 
+/* Police - taille texte et titre */
+main {
+  font-family: 'Roboto Slab', serif; 
+  font-size: medium;
+  font-weight: bold;
+}
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-family: 'Delicious Handrawn', cursive;
+  color: #2c9b0a;
+}
+
+h1 {
+  font-size: x-large;
+  letter-spacing: 3px;  
+}
+/* Banière fleurs tropicales */
+.banner {
+    width: 100%;
+    overflow: hidden;
+  }
+  .banner img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+      .banner {
+        display: none;
+      }
+    }  
+    @media screen and (min-width: 2000px) {
+      .banner {
+        display: none;
+      }
+    }
+
+
+
+
 
 
 
