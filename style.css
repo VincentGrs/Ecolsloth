@@ -1,0 +1,30 @@
+/* Header */
+.navbar-brandeee {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 38px;
+    color: #2c9b0a;
+    text-decoration: none;
+    }
+
+
+
+
+    /* Footer */
+footer {
+    text-align:center;
+  }
+  .Grey-background-footer {
+    background-color: rgba(0, 0, 0, 0.050);
+    padding: 30px;  
+  }
+  .titre-footer {
+    font-family: 'Delicious Handrawn', cursive;
+    color: #2c9b0a;
+  }
+   .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+  .text-reset {
+    text-decoration: none;
+  }
