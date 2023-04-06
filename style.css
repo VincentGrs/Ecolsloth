@@ -239,6 +239,59 @@ textarea {
 }
 }
 
+/* Cartes articles */
+.wrap-carte {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .carte {
+    width: calc(33.33% - 20px);
+    margin: 0 10px; 
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+  }
+  .carte:hover {
+    box-shadow: 5px 6px 6px 2px;
+    transform: scale(1.1);
+  }
+  .img-carte {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .texte-carte {
+    font-family: 'Roboto Slab', serif;
+  }
+  @media screen and (max-width: 768px) {
+    .wrap-carte {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px;
+    }
+    .carte {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .img-carte {
+     border-radius: 15px;
+    }
+    .carte:hover {
+   
+      transform: scale(0);
+      text-decoration: none;
+    }
+  }
 
     /* Footer */
 footer {
