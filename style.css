@@ -148,7 +148,96 @@ h1 {
     }
   }
 
+  /* Texte explication et formulaire de contact */
+.description-formulaire {
+    display: flex;
+      width: 100%;
+    padding: 5px; 
+  }
+  .description  {
+    flex-basis: 60%;  
+    height: 100%;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: #c7ffb6; 
+    border-radius: 60px; 
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    font-family: 'Roboto Slab', serif; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .disparition-texte-petit-ecran {
+      display: none;
+    }
+    .br-petit {
+      display: none;
+    }
+    .description {
+      flex-basis: 100%;
+      margin: 0px;
+      margin-right: 0px;
+    }
+  }
+  @media screen and (min-width: 1460px) {
+    .description-formulaire {
+      align-items: center;
+    }
+  }
+/* Formulaire */
+.formulaire {
+	flex-basis: 40%;
+  padding: 10px;
+  margin-left: 10px;
+	border-radius: 60px;
+	background-color: #f7f7f7;
+	text-align: center;
+  box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.3); 
+}
 
+.label-formulaire {
+	display: block;
+	margin-bottom: 5px;
+}
+.input-formulaire {
+	height: 35px;
+	width: 80%;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	resize: vertical;
+}
+textarea {
+	height: 100px;
+	width: 80%;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	resize: vertical;
+}
+@media screen and (max-width: 768px) {
+.formulaire {
+  display: none;
+} 
+}
+.description {
+  box-shadow: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .description-formulaire {
+    flex-direction: column;
+  }
+  .formulaire {
+    flex-basis: 40%;
+    margin: 10px 0;
+    margin-left: 0px;
+    box-shadow: none; 
+  }
+  .description {
+    margin: 0px;
+    box-shadow: none; 
+}
+}
 
 
     /* Footer */
