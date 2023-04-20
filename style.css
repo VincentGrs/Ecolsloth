@@ -461,3 +461,47 @@ footer {
     max-width: 60%;
   }
   }
+
+  /* Page article */
+.gestion-page {
+    display: flex;
+   justify-content: center;
+   padding: 10px;
+  }
+  .bouton-retour {
+   display: inline-block;
+   height: 60px;
+    width: 80%;
+   text-align: center;
+   color: #fff;
+   background-color: rgb(189, 189, 255);
+   border-radius: 20px;
+   text-decoration: none;
+   transition: background-color 0.3s ease;
+  }
+  .bouton-retour:hover {
+   background-color: #656565;
+  }
+  @media screen and (max-width: 1024px) {
+   .disparition-texte-bouton {
+       display: none;
+   }
+   .bouton-retour{
+       height: auto;
+   }
+  }
+  .article-wrap {
+  text-align: center;
+  
+  }
+  .article-wrap img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  
+  }
+  @media screen and (min-width: 768px) {
+  .article-wrap img {
+  width: 60%;
+  }
+  }
