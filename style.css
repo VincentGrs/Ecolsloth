@@ -398,3 +398,66 @@ footer {
       background-color: #f29f9f;
       border: 1px solid #ccc;
   }
+
+
+/* page évènement */
+.description-formulaire3 {
+    display: flex;
+      width: 100%;
+    padding: 15px; 
+    flex-direction: column;
+    background-color: #f29f9f;
+  }
+  .img-evenement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-evenement img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  .description-evenement {
+  background-color: #eeba7d;
+  border-radius: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  .map-evenement {
+  max-width: 100%;
+  border-radius: 10%;
+  }
+  .formulaire3 {
+    padding: 10px;
+      border-radius: 60px;
+      background-color: #f7f7f7;
+      text-align: center;
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.3); 
+  }
+  .description-evenement {
+  text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .wrap-evenement {
+      width: 100%;   
+      height: auto;
+  }
+  .img-evenement {
+    width: 100%;
+    height: 100%;
+  }
+  }
+  @media screen and (min-width: 1400px) {
+  .formulaire3 {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  width: 90%;
+  }
+  .img-evenement img {
+    max-width: 60%;
+  }
+  }
