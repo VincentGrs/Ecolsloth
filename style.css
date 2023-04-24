@@ -21,6 +21,16 @@ h1 {
   font-size: x-large;
   letter-spacing: 3px;  
 }
+h2 {
+    font-size: x-large
+  }
+  h3 {
+    font-size: x-large;
+    padding: 5px;
+  }
+  h4 {
+    font-size: x-large;
+  }
 
 /* Banière fleurs tropicales */
 .banner {
@@ -490,7 +500,7 @@ footer {
     
     }
   }
-  
+
 /* Page description */
 .section-description1, .section-description3 {
     background-color: #a9da87;
