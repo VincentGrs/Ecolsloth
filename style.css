@@ -460,7 +460,37 @@ footer {
         padding: 0px;
         }
     }
+
+    /* Page don */
+.img-constru-wrap {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-constru {
+    display: flex;
+    width: 70%;
+    height: auto;
+   border-radius: 20px;
+  
+  }
+  .text-constru {
+    font-family: 'Delicious Handrawn', cursive;
+  text-align: center;
+  padding: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .img-constru {
+  padding: 2px;
+      width: 100%;
     
+     border-radius: 20px;
+    
+    }
+  }
+  
 /* Page description */
 .section-description1, .section-description3 {
     background-color: #a9da87;
