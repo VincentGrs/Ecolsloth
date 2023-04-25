@@ -297,9 +297,10 @@ textarea {
      border-radius: 15px;
     }
     .carte:hover {
-   
+      box-shadow: none;
       transform: scale(0);
       text-decoration: none;
+      color: inherit;
     }
   }
 
