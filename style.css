@@ -282,6 +282,7 @@ textarea {
   @media screen and (max-width: 768px) {
     .wrap-carte {
       flex-direction: column;
+      height: auto;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -293,13 +294,13 @@ textarea {
       padding: 5px;
       margin-top: 5px;
       margin-bottom: 5px;
-      touch-action: pan-y;
+   
     }
     .img-carte {
      border-radius: 15px;
     }
     .carte:hover {
-    display:none;
+    transform: none;
     }
   }
 
