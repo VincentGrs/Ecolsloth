@@ -293,7 +293,7 @@ textarea {
       padding: 5px;
       margin-top: 5px;
       margin-bottom: 5px;
-      position:auto;
+      touch-action: pan-y;
     }
     .img-carte {
      border-radius: 15px;
