@@ -282,7 +282,7 @@ textarea {
   @media screen and (max-width: 768px) {
     .wrap-carte {
       flex-direction: column;
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: center;
       padding: 0px;
